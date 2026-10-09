@@ -1,12 +1,19 @@
 package br.com.mirella.myproject;
 
 public class Book {
+    private long id;
     private String title;
     private String author;
 
     public Book(String title, String author){
         this.title = title;
         this.author = author;
+    }
+    public long getId() {
+        return id;
+    }
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getTitle(){
