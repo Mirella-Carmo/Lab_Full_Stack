@@ -1,4 +1,4 @@
-package br.com.mirella.myproject.dto;
+package br.com.mirella.myproject.controller.dto;
 
 /** O que a API devolve para o cliente (saída) */
 public class BookResponse {

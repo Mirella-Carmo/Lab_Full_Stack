@@ -1,8 +1,8 @@
 package br.com.mirella.myproject.mapper;
 
 import br.com.mirella.myproject.Book;
-import br.com.mirella.myproject.dto.BookResponse;
-import br.com.mirella.myproject.dto.BookCreateRequest;
+import br.com.mirella.myproject.controller.dto.BookResponse;
+import br.com.mirella.myproject.controller.dto.BookCreateRequest;
 
 public class BookMapper {
     private BookMapper() {}

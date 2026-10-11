@@ -5,10 +5,14 @@ public class Book {
     private String title;
     private String author;
 
-    public Book(String title, String author){
+    public Book(long id, String title, String author){
         this.title = title;
         this.author = author;
     }
+
+    public Book() {
+    }
+
     public long getId() {
         return id;
     }

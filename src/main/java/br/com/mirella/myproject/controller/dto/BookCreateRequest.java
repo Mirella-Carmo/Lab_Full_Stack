@@ -1,4 +1,4 @@
-package br.com.mirella.myproject.dto;
+package br.com.mirella.myproject.controller.dto;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
